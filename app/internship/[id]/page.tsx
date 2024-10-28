@@ -2,6 +2,7 @@
 "use client"
 
 import { FC } from 'react';
+import Link from 'next/link';
 
 import { internData } from '@/data/intern';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -57,9 +58,11 @@ const InternshipDetail: FC = () => {
         </div>
       </CardContent>
       <CardFooter>
+      <Link href={internship.link} passHref>
         <Button className="w-full" >
           <Download className="mr-2 h-4 w-4" /> Download Certificate
         </Button>
+        </Link>
       </CardFooter>
     </Card>
     </BlurFade>

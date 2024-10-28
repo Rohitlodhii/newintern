@@ -1,101 +1,60 @@
-import Image from "next/image";
+"use client"
+import Footer from "@/components/Footer";
+import PcCard from "@/components/pcCard";
+import PricingSection from "@/components/Pricing";
+import AnimatedShinyText from "@/components/ui/animated-shiny-text";
+import BlurFade from "@/components/ui/blur-fade";
+import { Button } from "@/components/ui/button";
+import GridPattern from "@/components/ui/grid-pattern";
+import { cn } from "@/lib/utils";
+import { ArrowRightIcon } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+    <div className="relative h-[65vh] md:h-[65vh]  flex flex-col w-full size-full items-center justify-center overflow-hidden   bg-background p-4 md:p-20 ">
+      <BlurFade delay={0.10} duration={0.8}>
+      <div className="z-10 flex flex-col md:gap-5 gap-3 md:w-[70%] w-full  mx-auto items-center">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      <div className="dark:bg-zinc-800 mx-auto bg-zinc-300 hover:dark:bg-zinc-700 transition ease-in cursor-pointer rounded-2xl ">
+      <AnimatedShinyText className=" inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
+          <span>✨ Introducing Aibytes</span>
+          <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+        </AnimatedShinyText>
+
+            </div>
+
+            <div className="md:font-semibold font-medium tracking-tighter  md:text-7xl sm:text-4xl text-4xl text-center">
+          Automate your workflow with sleek ai integrations.
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <div className="text-center md:w-[60%] mx-auto md:text-sm text-[12px] tracking-tighter  font-medium">
+        Transform your products and websites with AI-powered automation, personalization, and seamless integration tailored to your goals.
+        </div>
+
+        <div className="mt-4">
+          <Button>Contact us now <ArrowRightIcon className="ml-2 "/></Button>
+        </div>
+
+      </div>
+        </BlurFade>
+
+
+     
+
+    <GridPattern
+      width={30}
+      height={30}
+      x={-1}
+      y={-1}
+      strokeDasharray={"4 2"}
+      className={cn(
+        "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+      )}
+    />
+  </div>
+   <PcCard/>
+   <PricingSection/>
+   <Footer/>
+   </>
   );
 }

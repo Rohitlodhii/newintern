@@ -4,7 +4,7 @@
     "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off",
     "no-unused-vars":"off",
-    "no-empty-object-type": "off" ,
+    "no-empty-object-type": "off"
   },
   "eslint.options": {
   "@typescript-eslint/no-unused-vars": "off",

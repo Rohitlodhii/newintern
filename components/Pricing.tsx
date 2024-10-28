@@ -64,7 +64,7 @@ export default function PricingSection() {
     </BlurFade>
 
     <BlurFade delay={0.5} inView>
-      <div className=" ">
+      <div className=" px-2 overflow-hidden ">
       <MarqueeDemo/>
       </div>
       </BlurFade>

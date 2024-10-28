@@ -8,8 +8,8 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 export default function Navbar() {
   return (
     <nav className="w-full fixed z-10 h-12 bg-background shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-12">
+    
+        <div className="flex justify-between items-center h-12 px-6">
           {/* Company Name */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-xl font-bold text-primary">
@@ -25,15 +25,17 @@ export default function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <Link href="https://docs.google.com/forms/d/e/1FAIpQLScBavdoSJLo9-i1MVAlHLWE62X1jy1q6Ky5Z9-umYIR3GMcpQ/viewform">
-              <DropdownMenuItem>Intership</DropdownMenuItem>
+              <DropdownMenuItem>Join Intership</DropdownMenuItem>
               </Link >
-              <DropdownMenuItem>Check Intern</DropdownMenuItem>
+              <Link href={'/internship'}>
+              <DropdownMenuItem>Intern Id Search</DropdownMenuItem>
+              </Link >
             </DropdownMenuContent>
            </DropdownMenu>
             <ModeToggle/>
           </div>
         </div>
-      </div>
+    
     </nav>
   )
 }

@@ -17,10 +17,7 @@ interface Params {
   id: string;
 }
 
-// Component props including params
-interface InternshipDetailProps {
-  params: Params;
-}
+
 
 const InternshipDetail: FC = () => {
   const params = useParams();

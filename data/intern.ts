@@ -13,8 +13,8 @@ export const internData : Internship[] = [
     {
         id : 22920241 ,
         name : "Naina Shilpkar",
-        startDate : "25 Sep 2024",
-        endDate : "28 Oct 2024",
+        startDate : "27 Aug 2024",
+        endDate : "24 Sep 2024",
         category : "Web Developer intern",
         link:"https://drive.google.com/file/d/1--Zx_ro9ClOf9vHGTRSkMGotSDKIS3vT/view?usp=drivesdk",
         regards : "She have completed her internship with aibytes , and made projects such as her portfolio , todolist and currency converter"

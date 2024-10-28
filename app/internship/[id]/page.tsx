@@ -12,10 +12,6 @@ import BlurFade from '@/components/ui/blur-fade';
 import { useParams } from 'next/navigation';
 
 
-// Define the type for the params
-interface Params {
-  id: string;
-}
 
 
 

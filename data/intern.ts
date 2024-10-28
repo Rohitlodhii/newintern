@@ -40,10 +40,10 @@ export const internData : Internship[] = [
     {
         id : 25920248 ,
         name : "Deepak Sahu",
-        startDate : "26 Sep 2024",
-        endDate : "28 Oct 2024",
-        category : "Basic Python intern",
-        link:"",
+        startDate : "27 Aug 2024",
+        endDate : "24 Sep 2024",
+        category : "Beginner Python intern",
+        link:"https://drive.google.com/file/d/1Jb4uIY98tqcq8Tn07H3jTqB2nwXEnD8f/view?usp=sharing",
         regards : "Deepak have completed his internship with aibytes , and learnt about python syntax , libraries , api's and made basic api's with postman"
     },
     {

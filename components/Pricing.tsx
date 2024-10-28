@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent,  CardHeader, CardTitle } from "@/components/ui/card"
 import { MarqueeDemo } from "./Review"
 import ContactUs from "./ContactUs"
+import BlurFade from "./ui/blur-fade"
 
 
 export default function PricingSection() {
@@ -26,6 +27,7 @@ export default function PricingSection() {
 
   return (
     <>
+    <BlurFade delay={0.5} inView>
     <section className="py-16 px-4 md:px-8 lg:px-16 ">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Pricing</h2>
@@ -59,13 +61,19 @@ export default function PricingSection() {
         
 
     </section>
+    </BlurFade>
+
+    <BlurFade delay={0.5} inView>
       <div className=" ">
       <MarqueeDemo/>
       </div>
+      </BlurFade>
 
+      <BlurFade delay={0.5} inView>
       <div>
         <ContactUs/>
       </div>
+      </BlurFade>
 
       </>
   )

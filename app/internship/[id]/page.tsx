@@ -1,4 +1,5 @@
 // /app/internship/[id]/page.tsx
+"use client"
 
 import { FC } from 'react';
 
@@ -8,6 +9,7 @@ import { Calendar, Download, Tag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 import BlurFade from '@/components/ui/blur-fade';
+import { useParams } from 'next/navigation';
 
 
 // Define the type for the params
@@ -20,8 +22,9 @@ interface InternshipDetailProps {
   params: Params;
 }
 
-const InternshipDetail: FC<InternshipDetailProps> = async ({ params }) => {
-  const { id } = await params; // Accessing the ID from params
+const InternshipDetail: FC = () => {
+  const params = useParams();
+  const { id } = params; // Accessing the ID from params
 
   // Find the internship by ID
   const internship = internData.find((intern) => intern.id.toString() === id);

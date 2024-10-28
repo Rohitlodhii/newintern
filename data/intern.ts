@@ -16,7 +16,7 @@ export const internData : Internship[] = [
         startDate : "25 Sep 2024",
         endDate : "28 Oct 2024",
         category : "Web Developer intern",
-        link:"https://drive.google.com/file/d/1dQNasFcrlv1VX7dYtnxgNx54rUTLWGE9/view",
+        link:"https://drive.google.com/file/d/1slmFRRC8NXfQpW730HhrFAO3PRIpZnoi/view?usp=sharing",
         regards : "She have completed her internship with aibytes , and made projects such as her portfolio , todolist and currency converter"
     },
     {

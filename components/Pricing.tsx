@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge"
 
 import { Card, CardContent,  CardHeader, CardTitle } from "@/components/ui/card"
-import { MarqueeDemo } from "./Review"
+
 import ContactUs from "./ContactUs"
 import BlurFade from "./ui/blur-fade"
 

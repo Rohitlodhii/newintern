@@ -49,10 +49,10 @@ export const internData : Internship[] = [
     {
         id : 28920249 ,
         name : "Sandeep Lodhi",
-        startDate : "27 Sep 2024",
-        endDate : "28 Oct 2024",
+        startDate : "27 Aug 2024",
+        endDate : "24 Sep 2024",
         category : "Web Developer intern",
-        link:"",
+        link:"https://drive.google.com/file/d/13mDMzOFiV4W_MC9YoB89_Owoo3WIwJgT/view?usp=sharing",
         regards : "Sandeep have completed his internship with aibytes , and made projects such as his portfolio , todolist"
     },
     {

@@ -31,10 +31,10 @@ export const internData : Internship[] = [
     {
         id : 24920246 ,
         name : "Nikhil Chouksey",
-        startDate : "25 Sep 2024",
-        endDate : "28 Oct 2024",
+        startDate : "27 Aug 2024",
+        endDate : "24 Sept 2024",
         category : "Web Developer intern",
-        link:"",
+        link:"https://drive.google.com/file/d/1He0cOMzcOxfjl0pHGcqTtoCG37dYCQCJ/view?usp=sharing",
         regards : "Nikhil have completed his internship with aibytes , and made projects such as his portfolio , chatgpt clone , todolist , gooleclone."
     },
     {

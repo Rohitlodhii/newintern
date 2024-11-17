@@ -25,7 +25,7 @@ export const internData : Internship[] = [
         startDate : "27 Aug 2024",
         endDate : "24 September 2024",
         category : "c++ intern",
-        link:"https://drive.google.com/file/d/1qetDZ-fv9A_NCKHa8eSIutDRa7GmQlPI/view?usp=sharing",
+        link:"https://drive.google.com/file/d/1n9zgRMW7EYKrFDs4dwbuf7MpKlh6eWg6/view?usp=sharing",
         regards : "Sourabh have completed his internship with aibytes , and learnt about C++ syntax , libraries , and made calculator , todolist and basic console games"
     },
     {
@@ -61,7 +61,7 @@ export const internData : Internship[] = [
         startDate : "27 August 2024",
         endDate : "24 September 2024",
         category : "Devops Intern",
-        link:"https://drive.google.com/file/d/10PGPIZit0cB-JG6HbVgMjKi0KBrVHoYE/view?usp=sharing",
+        link:"https://drive.google.com/file/d/1DNaxE1dpflC0Tg8P6r9rSKu2mp8LpXW3/view?usp=sharing",
         regards : "Rohit have completed his internship with aibytes , and made projects such as CI/CD pipeline using github actions "
     },
 ]

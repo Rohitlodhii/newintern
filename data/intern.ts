@@ -61,7 +61,7 @@ export const internData : Internship[] = [
         startDate : "27 August 2024",
         endDate : "24 September 2024",
         category : "Devops Intern",
-        link:"",
+        link:"https://drive.google.com/file/d/10PGPIZit0cB-JG6HbVgMjKi0KBrVHoYE/view?usp=sharing",
         regards : "Rohit have completed his internship with aibytes , and made projects such as CI/CD pipeline using github actions "
     },
 ]

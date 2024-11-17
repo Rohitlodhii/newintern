@@ -22,11 +22,11 @@ export const internData : Internship[] = [
     {
         id : 23920243 ,
         name : "Sourabh Singh",
-        startDate : "25 Sep 2024",
-        endDate : "28 Oct 2024",
-        category : "Web Developer intern",
+        startDate : "27 Aug 2024",
+        endDate : "24 September 2024",
+        category : "c++ intern",
         link:"",
-        regards : "Sourabh have completed his internship with aibytes , and made projects such as his own portfolio , todolist and currency converter"
+        regards : "Sourabh have completed his internship with aibytes , and learnt about C++ syntax , libraries , and made calculator , todolist and basic console games"
     },
     {
         id : 24920246 ,

@@ -58,10 +58,10 @@ export const internData : Internship[] = [
     {
         id : 30920247 ,
         name : "Rohit Lodhi",
-        startDate : "25 Sep 2024",
-        endDate : "28 Oct 2024",
-        category : "Full Stack Intern",
+        startDate : "27 August 2024",
+        endDate : "24 September 2024",
+        category : "Devops Intern",
         link:"",
-        regards : "Rohit have completed his internship with aibytes , and made projects such as Notion Clone , Ai Calculator and our landing page"
+        regards : "Rohit have completed his internship with aibytes , and made projects such as CI/CD pipeline using github actions "
     },
 ]

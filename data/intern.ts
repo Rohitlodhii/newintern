@@ -21,7 +21,7 @@ export const internData : Internship[] = [
     },
     {
         id : 23920243 ,
-        name : "Sourabh Singh",
+        name : "Saurav Singh",
         startDate : "27 Aug 2024",
         endDate : "24 September 2024",
         category : "c++ intern",

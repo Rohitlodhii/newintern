@@ -32,12 +32,12 @@ export const internData : Internship[] = [
     },
       {
         id : 23920245 ,
-        name : "Saurav Patel",
+        name : "Sourabh Patel",
         startDate : "27 Aug 2024",
         endDate : "24 September 2024",
         category : "Web development Intern",
         link:"https://drive.google.com/file/d/1n9zgRMW7EYKrFDs4dwbuf7MpKlh6eWg6/view?usp=sharing",
-        regards : "Sourabh have completed his internship with aibytes , and learnt about C++ syntax , libraries , and made calculator , todolist and basic console games"
+        regards : "Sourabh have completed his internship with aibytes , and learnt about web development principles , made some personal projects."
     },
     {
         id : 24920246 ,

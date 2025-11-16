@@ -35,11 +35,11 @@ export const internData : Internship[] = [
     {
         id : 23920243 ,
         name : "Saurav Singh",
-        startDate : "27 Aug 2024",
-        endDate : "24 September 2024",
-        category : "c++ intern",
+        startDate : "27 Aug 2025",
+        endDate : "27 September 2025",
+        category : "Web developer intern",
         link:"https://drive.google.com/file/d/1n9zgRMW7EYKrFDs4dwbuf7MpKlh6eWg6/view?usp=sharing",
-        regards : "He has successfully completed his internship with aibytes , and learnt about C++ syntax , libraries , and made calculator , todolist and basic console games"
+        regards : "Saurav have completed his internship with aibytes , learnt about reactjs, tailwindcss and basic backend"
     },
       {
         id : 23920245 ,
@@ -71,20 +71,20 @@ export const internData : Internship[] = [
     {
         id : 25920248 ,
         name : "Deepak Sahu",
-        startDate : "27 Aug 2024",
-        endDate : "24 Sep 2024",
-        category : "Beginner C++ Intern",
+        startDate : "27 Aug 2025",
+        endDate : "27 Sep 2025",
+        category : "Wen Developer Intern",
         link:"https://drive.google.com/file/d/1SGJR93eT7h6cRzGbrFzoBcWW_Cg4J27x/view?usp=sharing",
-        regards : "Deepak have completed his internship with aibytes , and learnt about C++ syntax , libraries , and made calculator , todolist and basic console games"
+        regards : "Deepak have completed his internship with aibytes , learnt about reactjs, tailwindcss and basic backend"
     },
     {
         id : 28920249 ,
         name : "Sandeep Lodhi",
-        startDate : "27 Aug 2024",
-        endDate : "24 Sep 2024",
+        startDate : "27 Aug 2025",
+        endDate : "27 Sep 2025",
         category : "Web Developer intern",
         link:"https://drive.google.com/file/d/13mDMzOFiV4W_MC9YoB89_Owoo3WIwJgT/view?usp=sharing",
-        regards : "Sandeep have completed his internship with aibytes , and made projects such as his portfolio , todolist"
+        regards : "Sandeep have completed his internship with aibytes , and made projects such as his portfolio , chatgpt clone etc."
     },
     {
         id : 30920247 ,
